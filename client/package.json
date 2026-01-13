@@ -15,7 +15,8 @@
   },
   "lint-staged": {
     "**/*.{js,ts,jsx,tsx}": [
-      "prettier --write --ignore-unknown"
+      "prettier --write .",
+      "prettier --check ."
     ],
     "!**/*.{js,ts,jsx,tsx}": [
       "prettier --write --ignore-unknown"
